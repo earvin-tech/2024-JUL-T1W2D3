@@ -1,0 +1,26 @@
+/* en is relative to the parent's font size */
+/* ren is relative to the root's font size - html */
+/* :root {
+    font-size: 80px;
+} */
+
+html {
+    font-size: 24px;
+}
+
+body {
+    font-size: 48px;
+}
+
+.typography {
+    margin-top: 160px;
+    text-align: center;
+
+    font-size: 1rem;
+    font-weight: 400; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.styled-div {
+    font-size: 2rem;
+}
