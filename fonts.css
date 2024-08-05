@@ -1,7 +1,8 @@
-/* en is relative to the parent's font size */
-/* ren is relative to the root's font size - html */
+/* em is relative to the parent's font size */
+/* rem is relative to the root's font size - html */
+
 /* :root {
-    font-size: 80px;
+    font-size: 8px;
 } */
 
 html {

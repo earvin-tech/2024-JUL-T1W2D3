@@ -1,0 +1,19 @@
+$primary-color:aqua;
+
+.scss-parent {
+    font-size: 24px;
+    color: $primary-color;
+
+    &:hover {
+        color: black;
+    }
+
+    .scss-child-1 {
+        color: blue;
+
+        .scss-child-2 {
+            color: white;
+            background-color: $primary-color;
+        }
+    }
+}

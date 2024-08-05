@@ -1,0 +1,17 @@
+.scss-parent {
+    font-size: 24px;
+    color: red;
+}
+
+.scss-parent:hover {
+    color: black;
+}
+
+.scss-parent .scss-child-1 {
+    color: blue;
+} 
+
+.scss-parent .scss-child-1 .scss-child-2 {
+    color: white;
+    background-color: red;
+}
